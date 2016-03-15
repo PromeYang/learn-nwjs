@@ -93,7 +93,7 @@ NODE_MODULE(addon, init)
 
 ## 编译addons
 
-* 1. `ctrl+r` 输入 `cmd` 启动命令行
+* 1. `win+r` 输入 `cmd` 启动命令行
 * 2. 进入test.cpp文件所在的目录路径
 * 3. `nw-gyp configure --target=<这里输入你的nwjs版本号,例如:0.12.3>`
 * 4. `nw-gyp build` 进行编译, 如果成功, 会在当前目录的`build\Relase`文件夹下面找到helloworld.node
