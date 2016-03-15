@@ -104,9 +104,13 @@ NODE_MODULE(addon, init)
 ### 目录结构
 
 app
+
 --index.html
+
 --package.json
+
 --node_modules
+
   --helloworld.node
 
 ### 在当前目录执行`<nwjs所在目录>nw.exe .`
