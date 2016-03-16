@@ -99,6 +99,12 @@ NODE_MODULE(addon, init)
 * 4. `nw-gyp build` 进行编译, 如果成功, 会在当前目录的`build\Relase`文件夹下面找到helloworld.node
 * 5. 把编译好的文件放到app项目的node_modules目录下
 
+** p.s. 如果没有全局设置vs的版本, 需要在build之前指定configure的vs版本 **
+
+```
+nw-gyp configure --msvs_version=<这里输入你的vs版本,例如2010> --target=<这里输入你的nwjs版本号,例如:0.12.3>
+```
+
 ## 启动app
 
 ### 目录结构
