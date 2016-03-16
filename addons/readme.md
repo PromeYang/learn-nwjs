@@ -127,4 +127,4 @@ app
 
 ## 参考资料
 
-* [https://nodejs.org/docs/latest-v0.12.x/api/addons.html]
+* [https://nodejs.org/docs/latest-v0.12.x/api/addons.html](https://nodejs.org/docs/latest-v0.12.x/api/addons.html)
