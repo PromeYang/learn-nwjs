@@ -124,3 +124,7 @@ app
 ### 在当前目录执行`<nwjs所在目录>nw.exe .`
 
 看到弹框, 说明成功了
+
+## 参考资料
+
+* [https://nodejs.org/docs/latest-v0.12.x/api/addons.html]
